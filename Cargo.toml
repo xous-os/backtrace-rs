@@ -22,7 +22,7 @@ exclude = ['crates/without_debuginfo']
 cfg-if = "0.1.10"
 rustc-demangle = "0.1.4"
 backtrace-sys = { path = "crates/backtrace-sys", version = "0.1.32", optional = true, default_features = false }
-libc = { version = "0.2.45", default-features = false, git = 'https://github.com/xous-os/libc.git' }
+libc = { version = "0.2.45", default-features = false, git = 'https://github.com/xous-os/libc.git', rev = '42645690499e72cba2fa51e0b64fe704b3998e14' }
 core = { version = "1.0.0", optional = true, package = 'rustc-std-workspace-core' }
 compiler_builtins = { version = '0.1.2', optional = true }
 
