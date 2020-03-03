@@ -12,7 +12,7 @@ Bindings to the libbacktrace gcc library
 """
 
 [dependencies]
-libc = { version = "0.2", default-features = false }
+libc = { version = "0.2", default-features = false, path = "../../../libc" }
 core = { version = '1.0.0', optional = true, package = 'rustc-std-workspace-core' }
 compiler_builtins = { version = '0.1.2', optional = true }
 

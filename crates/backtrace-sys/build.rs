@@ -66,6 +66,7 @@ fn main() {
         && !target.contains("solaris")
         && !target.contains("redox")
         && !target.contains("haiku")
+        && !target.contains("xous")
         && !target.contains("vxworks")
     {
         build.define("HAVE_DL_ITERATE_PHDR", "1");
